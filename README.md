@@ -23,7 +23,7 @@ Mạch giảm nhiễu tiếng nói sử dụng 2 mic
 
 ## **Sơ đồ thuật toán**
 
-![Sơ đồ thuật toán](img\BlockDiagram.PNG)
+![Sơ đồ thuật toán](img/BlockDiagram.PNG)
 
 Sơ đồ khối của mạch sẽ gồm hai khối chính: Adaptive Filter và Adaption Procedure.
 
@@ -35,7 +35,7 @@ Mục tiêu: tìm hệ số của ĥ(n) gần với h(n) nhất để trừ đư
 
 ## **Kết quả**
 
-![Kết quả](img\result.PNG)
+![Kết quả](img/result.PNG)
 Hình thứ nhất là hình dạng tín hiệu trên miền thời gian, có thể thấy đầu ra Verilog có dạng giống đầu ra đầu vào main nhưng có ít nhiễu hơn
 
 Hình thứ hai là phổ tần số của tín hiệu, có thể thấy nhiễu 1000Hz bị giảm rõ rệt, các dải tần số còn lại được giữ nguyên hình dạng và cường độ -> điều này ảnh hưởng rất nhiều đến chỉ số PESQ nhất là với dải tần số của tiếng nói từ 60Hz đến 280Hz
