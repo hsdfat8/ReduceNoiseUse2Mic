@@ -35,7 +35,7 @@ Objective: find the coefficient of ĥ(n) closest to h(n) to subtract noise from 
 
 ## **Kết quả**
 
-![Kết quả](img/result.PNG)
-Hình thứ nhất là hình dạng tín hiệu trên miền thời gian, có thể thấy đầu ra Verilog có dạng giống đầu ra đầu vào main nhưng có ít nhiễu hơn
+![Result](img/result.PNG)
+The first figure is the signal shape in the time domain, it can be seen that the Verilog output has the same form as the main input output but with less noise
 
-Hình thứ hai là phổ tần số của tín hiệu, có thể thấy nhiễu 1000Hz bị giảm rõ rệt, các dải tần số còn lại được giữ nguyên hình dạng và cường độ -> điều này ảnh hưởng rất nhiều đến chỉ số PESQ nhất là với dải tần số của tiếng nói từ 60Hz đến 280Hz
+The second figure is the spectrum. signal, it can be seen that the 1000Hz noise is significantly reduced, the remaining frequency bands are kept the same shape and intensity -> this greatly affects the PESQ index, especially with the frequency range of the voice. from 60Hz to 280Hz
